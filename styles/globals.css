@@ -1,107 +1,101 @@
 :root {
-  --max-width: 1100px;
-  --border-radius: 12px;
-  --font-mono: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono",
-    "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro",
-    "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
+  /****TYPE****/
+  --large-title: 28pt;
+  --title-1: 24pt;
+  --title-2: 20pt;
+  --title-3: 18pt;
+  --headline: 17pt;
+  --body: 16pt;
+  --sub-body: 15pt;
+  --footnote: 14pt;
+  --caption-1: 12pt;
+  --caption-2: 11pt;
 
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --font-weight-regular: 400;
+  --font-weight-semibold: 550;
+  --font-weight-bold: 700;
 
-  --primary-glow: conic-gradient(
-    from 180deg at 50% 50%,
-    #16abff33 0deg,
-    #0885ff33 55deg,
-    #54d6ff33 120deg,
-    #0071ff33 160deg,
-    transparent 360deg
-  );
-  --secondary-glow: radial-gradient(
-    rgba(255, 255, 255, 1),
-    rgba(255, 255, 255, 0)
-  );
+  /****GREEN****/
+  --dark-green: #234422;
+  --dark-green-85: #23442285;
+  --med-green: #60935D;
+  --med-green-85: #60935D85;
+  --med-green-75: #60935D75;
+  --med-green-20: #60935D20;
+  --med-green-10: #60935D10;
 
-  --tile-start-rgb: 239, 245, 249;
-  --tile-end-rgb: 228, 232, 233;
-  --tile-border: conic-gradient(
-    #00000080,
-    #00000040,
-    #00000030,
-    #00000020,
-    #00000010,
-    #00000010,
-    #00000080
-  );
+  --light-green: #86B084;
+  --light-green-85: #86B08485;
 
-  --callout-rgb: 238, 240, 241;
-  --callout-border-rgb: 172, 175, 176;
-  --card-rgb: 180, 185, 188;
-  --card-border-rgb: 131, 134, 135;
-}
+  --bright-green: #B6D1B5;
+  
+  --bright-af: #FDFFFD;
+  --bright-af-80: #FDFFFD80;
+  --bright-af-75: #FDFFFD75;
+  --bright-af-45: #FDFFFD45;
+  --bright-af-15: #FDFFFD15;
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+  /****BLUE****/
+  --dark-blue: #1C4947;
+  --bold-blue: #305B59;
+  
+  --med-blue: #3B6F6C;
+  --med-blue-85: #3B6F6C85;
+  --med-blue-35: #3B6F6C35;
 
-    --primary-glow: radial-gradient(rgba(1, 65, 255, 0.4), rgba(1, 65, 255, 0));
-    --secondary-glow: linear-gradient(
-      to bottom right,
-      rgba(1, 65, 255, 0),
-      rgba(1, 65, 255, 0),
-      rgba(1, 65, 255, 0.3)
-    );
+  --light-blue: #618F8E;
+  --light-blue-85: #618F8E85;
+  --bright-blue: #87B1AF;
 
-    --tile-start-rgb: 2, 13, 46;
-    --tile-end-rgb: 2, 5, 19;
-    --tile-border: conic-gradient(
-      #ffffff80,
-      #ffffff40,
-      #ffffff30,
-      #ffffff20,
-      #ffffff10,
-      #ffffff10,
-      #ffffff80
-    );
+  --blue-bg-gradient: linear-gradient(0deg, rgba(93,147,142,1) 0%, rgba(93,147,142,0) 100%);
 
-    --callout-rgb: 20, 20, 20;
-    --callout-border-rgb: 108, 108, 108;
-    --card-rgb: 100, 100, 100;
-    --card-border-rgb: 200, 200, 200;
-  }
-}
+  /****RED***/
+  --dark-red: #782D2F;
+  --bold-red: #944F51;
+  --med-red: #B47274;
+  --light-red: #D7A1A2;
+  --bright-red: #FDDADB;
 
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
+  /****"BLACK"****/
+  --black-text: #2E384D; /*it's blue!!*/
+  --black-sub: #8C9CB0;
 
-html,
-body {
-  max-width: 100vw;
-  overflow-x: hidden;
+  /****"WHITE"****/
+  --white-bg: #EBF1F4;
+  --white-bg-85: #EBF1F485;
+
+  --white-shaded: #DFE9DF; /*literally green*/
+  --white-shaded-85: #DFE9DF85;
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  font-family: sans-serif;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.frame {
+  width: 1440px;
+  margin: auto;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+h1, h2, h3, h4, h5 {
+  font-weight: var(--font-weight-bold);
+}
+h1 {
+  font-size: var(--large-title);
+}
+h2 {
+  font-size: var(--title-1);
+}
+h3 {
+  font-size: var(--title-2);
+}
+h4 {
+  font-size: var(--title-3);
+}
+h5 {
+  font-size: var(--headline);
+}
+
+p {
+  font-size: var(--body);
 }
