@@ -1,5 +1,10 @@
 .main {
   margin: 32px;
-  display: grid;
-  grid-template-columns: repeat(8, 1fr);
+  display: flex;
+  flex-flow: column;
+}
+
+.colourCategory {
+  display: flex;
+  flex-flow: row;
 }
