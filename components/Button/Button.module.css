@@ -1,0 +1,14 @@
+.main {
+    border: none;
+    border-radius: 24px;
+    padding: 12px 28px;
+    font-weight: var(--font-weight-bold);
+    font-size: var(--size-body);
+    background-color: var(--med-green);
+    color: white;
+}
+
+.main:hover {
+    background-color: var(--dark-green);
+}
+

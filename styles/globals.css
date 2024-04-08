@@ -1,15 +1,15 @@
 :root {
   /****TYPE****/
-  --large-title: 28pt;
-  --title-1: 24pt;
-  --title-2: 20pt;
-  --title-3: 18pt;
-  --headline: 17pt;
-  --body: 16pt;
-  --sub-body: 15pt;
-  --footnote: 14pt;
-  --caption-1: 12pt;
-  --caption-2: 11pt;
+  --large-title: 28px;
+  --title-1: 24px;
+  --title-2: 20px;
+  --title-3: 18px;
+  --headline: 17px;
+  --body: 16px;
+  --sub-body: 15px;
+  --footnote: 14px;
+  --caption-1: 12px;
+  --caption-2: 11px;
 
   --font-weight-regular: 400;
   --font-weight-semibold: 550;
@@ -47,7 +47,7 @@
   --light-blue-85: #618F8E85;
   --bright-blue: #87B1AF;
 
-  --blue-bg-gradient: linear-gradient(0deg, rgba(93,147,142,1) 0%, rgba(93,147,142,0) 100%);
+  --blue-bg-gradient: linear-gradient(0deg, rgba(93,147,142,0.2) 0%, rgba(93,147,142,0) 100%);
 
   /****RED***/
   --dark-red: #782D2F;
@@ -77,10 +77,14 @@ body {
   margin: auto;
 }
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3 {
   font-weight: var(--font-weight-bold);
 }
+h4, h5 {
+  font-weight: var(--font-weight-regular);
+}
 h1 {
+  font-family: "Rajdhani", sans-serif;
   font-size: var(--large-title);
 }
 h2 {
@@ -101,5 +105,6 @@ p {
 }
 
 .caption1 {
+  margin-top: 0;
   font-size: var(--caption-1)
 }

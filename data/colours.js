@@ -11,7 +11,12 @@ export const colours = [
             { name: "med-green-10", variable: "--med-green-10", hex: "#60935D10" },
             { name: "light-green", variable: "--light-green", hex: "#86B084" },
             { name: "light-green-85", variable: "--light-green-85", hex: "#86B08485" },
-            { name: "bright-green", variable: "--bright-green", hex: "#B6D1B5" }
+            { name: "bright-green", variable: "--bright-green", hex: "#B6D1B5" },
+            { name: "bright-af", variable: "--bright-af", hex: "#FDFFFD" },
+            { name: "bright-af-80", variable: "--bright-af-80", hex: "#FDFFFD80" },
+            { name: "bright-af-75", variable: "--bright-af-75", hex: "#FDFFFD75" },
+            { name: "bright-af-45", variable: "--bright-af-45", hex: "#FDFFFD45" },
+            { name: "bright-af-15", variable: "--bright-af-15", hex: "#FDFFFD15" }
         ]
     },
     {

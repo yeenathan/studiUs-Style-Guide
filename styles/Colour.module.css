@@ -7,4 +7,19 @@
 .colourCategory {
   display: flex;
   flex-flow: row;
+  flex-wrap: wrap;
+}
+
+.examples {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  gap: 3rem;
+  margin: auto;
+}
+
+.example {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
 }
