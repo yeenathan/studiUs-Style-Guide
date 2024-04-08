@@ -3,3 +3,14 @@
   display: flex;
   flex-flow: column;
 }
+
+.logos {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+}
+
+.logo {
+  padding: 2rem;
+  width: 25%;
+}
