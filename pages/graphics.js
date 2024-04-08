@@ -12,7 +12,7 @@ export default function Graphics() {
             <Header/>
             <div className={styles.main}>
                 <h1>Graphics</h1>
-                <p>When choosing our graphics, we opted to include soft looking visuals to provide comfort and care for our users. </p>
+                <p>When choosing our graphics, we opted to include soft looking visuals to provide comfort and care for our users.</p>
                 <ul>
                   <li>
                     <h3>Icons</h3>
@@ -50,7 +50,13 @@ export default function Graphics() {
                     <p className="caption1">Photograph</p>
                   </div>
                 </div>
-            </div>
+                <h2>References</h2>
+                <ul>
+                  <li>Adobe Stock - Vector Graphics</li>
+                  <li>Iconify - Icons</li>
+                  <li>Unsplash - Photographs</li>
+                </ul>
+              </div>
             <Footer/>
         </div>
         </>
