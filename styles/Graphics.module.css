@@ -3,3 +3,17 @@
   display: flex;
   flex-flow: column;
 }
+
+.examples {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  gap: 3rem;
+  margin: auto;
+}
+
+.example {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}

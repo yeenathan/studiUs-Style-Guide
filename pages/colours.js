@@ -16,8 +16,7 @@ export default function Colours() {
             <div className={styles.main}>
                 <h1>Colours</h1>
                 <p>Colour names are not indicitave of actual hue values. The names are simply borrowed from the working Figma file.</p>
-                <p>
-                    StudiUs represents community, education, and comfort. When choosing our colour palette selection, we opt to fully represent studiUs's key values through shape and colour. Opacity values are adjusted according to their use cases to match the desired creative output.
+                <p>StudiUs represents community, education, and comfort. When choosing our colour palette selection, we opt to fully represent studiUs's key values through shape and colour. Opacity values are adjusted according to their use cases to match the desired creative output.</p>
                     <ul>
                         <li>
                             <h3>Primary: Green</h3>
@@ -36,9 +35,6 @@ export default function Colours() {
                             <p>An important element in our design, white reinforces many of our visuals acting as a neutral canvas for our components and assets. Additionally, white's blankness allows for proper contrast, readability, and clarity. White is used extensively for backgrounds, surfaces, and containers. Its clean and minimalist appearance creates a sense of spaciousness and cleanliness, enhancing the overall user experience.</p>
                         </li>
                     </ul>
-
-                </p>
-                
                 {
                     colours.map((hue) => {
                     return(
