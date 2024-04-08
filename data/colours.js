@@ -40,9 +40,7 @@ export const colours = [
         data: [
             { name: "bright-white", variable: "--bright-af", hex: "#FDFFFD" },
             { name: "white-bg", variable: "--white-bg", hex: "#EBF1F4" },
-            { name: "white-bg-85", variable: "--white-bg-85", hex: "#EBF1F485" },
             { name: "white-shaded", variable: "--white-shaded", hex: "#DFE9DF" },
-            { name: "white-shaded-85", variable: "--white-shaded-85", hex: "#DFE9DF85" }
         ]
     }
 ];
