@@ -10,12 +10,18 @@ export default function Typography() {
             <Header/>
             <div className={styles.main}>
                 <h1>Typography</h1>
-                <p>Typeface: Inter</p>
+                <p>Typefaces: Inter, <span style={{fontFamily: "Rajdhani, sans-serif"}}>Rajdhani</span></p>
+                <p>We like Rajdhani because the typeface is slightly more condensed, which contributes to the togetherness theme that we are going for.
+                It also consists of many parallel and perpendicular lines, while maintaining some softer edges, which gives a sense of order, stability, and gentleness that we want in our app.
+                </p>
+                <p>
+                    We chose Inter for our base font because it has a high x-height which helps with readability. It also has a large number of styles/weights which gives us many options to choose from when designing our layouts.
+                </p>
                 <p>Style names may not be indicative of actual use case. The names are simply borrowed from the working Figma file.</p>
                 <h2>Headers</h2>
                 <div className={styles.content}>
                     <ul>
-                        <li><h1>Header 1: Rajdhani Bold 28pt</h1></li>
+                        <li><h1>Header 1: Rajdhani Bold 28px</h1></li>
                         <li><h2>Header 2: Inter Bold 24px</h2></li>
                         <li><h3>Header 3: Inter Bold 20px</h3></li>
                         <li><h4>Header 4: Inter Regular 18px</h4></li>
