@@ -28,26 +28,26 @@ export default function Graphics() {
                 </ul>
                 <h2>Examples</h2>
                 <div className={styles.examples}>
-                    <div className={styles.example}>
-                        <Image src="/images/graphics-5.png" width={908} height={1734} style={{width: "400px", height: "auto"}}/>
-                        <p className="caption1">Vector Graphic</p>
-                    </div>
-                    <div className={styles.example}>
-                        <Image src="/images/graphics-4.png" width={908} height={1734} style={{width: "400px", height: "auto"}}/>
-                        <p className="caption1">Vector Graphic</p>
-                    </div>
-                    <div className={styles.example}>
-                        <Image src="/images/graphics-3.png" width={908} height={1734} style={{width: "400px", height: "auto"}}/>
-                        <p className="caption1">Icons</p>
-                    </div>
-                    <div className={styles.example}>
-                        <Image src="/images/graphics-2.png" width={908} height={1734} style={{width: "400px", height: "auto"}}/>
-                        <p className="caption1">Vector Graphic</p>
-                    </div>
-                    <div className={styles.example}>
-                        <Image src="/images/graphics-1.png" width={872} height={1218} style={{width: "400px", height: "auto"}}/>
-                        <p className="caption1">Photograph</p>
-                    </div>
+                  <div className={styles.example}>
+                    <Image src="/images/graphics-5.png" width={908} height={1734} style={{width: "400px", height: "auto"}}/>
+                    <p className="caption1">Vector Graphic</p>
+                  </div>
+                  <div className={styles.example}>
+                    <Image src="/images/graphics-4.png" width={908} height={1734} style={{width: "400px", height: "auto"}}/>
+                    <p className="caption1">Vector Graphic</p>
+                  </div>
+                  <div className={styles.example}>
+                    <Image src="/images/graphics-3.png" width={908} height={1734} style={{width: "400px", height: "auto"}}/>
+                    <p className="caption1">Icons</p>
+                  </div>
+                  <div className={styles.example}>
+                    <Image src="/images/graphics-2.png" width={908} height={1734} style={{width: "400px", height: "auto"}}/>
+                    <p className="caption1">Vector Graphic</p>
+                  </div>
+                  <div className={styles.example}>
+                    <Image src="/images/graphics-1.png" width={908} height={1734} style={{width: "400px", height: "auto"}}/>
+                    <p className="caption1">Photograph</p>
+                  </div>
                 </div>
             </div>
         </div>
