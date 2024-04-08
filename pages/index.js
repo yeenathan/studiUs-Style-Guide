@@ -12,9 +12,11 @@ export default function Home() {
       <main className={styles.main}>
         <h1>Home</h1>
         <div className={styles.logos}>
-          <Image src="/images/logo/logo-colour.svg" width={594} height={260} className={styles.logo}/>
-          <Image src="/images/logo/logo-black.svg" width={594} height={260} className={styles.logo}/>
-          <Image src="/images/logo/logo-monochromatic.svg" width={594} height={260} className={styles.logo}/> 
+          <Image src="/images/logo/logomark-colour.svg" width={597} height={176} className={styles.logo}/>
+          <Image src="/images/logo/logomark-monochromatic.svg" width={597} height={176} className={styles.logo}/>
+          <Image src="/images/logo/logomark-black.svg" width={176} height={176} className={styles.logo}/>
+          <Image src="/images/logo/logomark-grayscale.svg" width={176} height={176} className={styles.logo}/>
+          <Image src="/images/logo/logomark-vertical.svg" width={176} height={176} className={styles.logo}/>
         </div>
         <h2>Rationale</h2>
         <p>We wanted to keep our logo simple while also conveying the idea of collaboration/connection.
