@@ -3,3 +3,10 @@
   display: flex;
   flex-flow: column;
 }
+
+.references {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
