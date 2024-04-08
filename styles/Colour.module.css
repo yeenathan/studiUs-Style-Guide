@@ -3,3 +3,8 @@
   display: flex;
   flex-flow: column;
 }
+
+.colourCategory {
+  display: flex;
+  flex-flow: row;
+}

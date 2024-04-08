@@ -1,0 +1,15 @@
+.header {
+    display: flex;
+    flex-flow: row;
+    padding: 1rem 0;
+    gap: 3rem;
+}
+
+.navlink {
+    text-decoration: none;
+    font-weight: var(--font-weight-semibold);
+}
+
+.navlink:visited {
+    color: black;
+}
