@@ -16,6 +16,29 @@ export default function Colours() {
             <div className={styles.main}>
                 <h1>Colours</h1>
                 <p>Colour names are not indicitave of actual hue values. The names are simply borrowed from the working Figma file.</p>
+                <p>
+                    StudiUs represents community, education, and comfort. When choosing our colour palette selection, we opt to fully represent studiUs's key values through shape and colour. Opacity values are adjusted according to their use cases to match the desired creative output.
+                    <ul>
+                        <li>
+                            <h3>Primary: Green</h3>
+                            <p>Used as our primary colour of design, green is a natural hue representing comfort, positivity, and growth. We utilize different shades of green to add vibrancy and energy without overwhelming the user. Prominently used for key elements such as text and interactive components, it helps create a welcoming and optimistic atmosphere while reinforcing our brand's values of growth and community.</p>
+                        </li>
+                        <li>
+                            <h3>Secondary: Blue</h3> 
+                            <p>Our Secondary colour of design, blue conveys trust, professionalism, and reliability. Applied to our buttons and background visuals, blue provides the user with trust-filled direction and flow. Its presence enhances usability and guides users through our platform with a sense of trust and dependability.</p>
+                        </li>
+                        <li>                            
+                            <h3>Accent: Black</h3>
+                            <p>Black, though very faint, serves as our accent color, providing subtle depth and dimension to our components. Our choice to use a slightly blue-tinted black softens the impact of shadows, resulting in a smoother visual experience for users.</p>
+                        </li>
+                        <li>
+                            <h3>Background: White</h3>
+                            <p>An important element in our design, white reinforces many of our visuals acting as a neutral canvas for our components and assets. Additionally, white's blankness allows for proper contrast, readability, and clarity. White is used extensively for backgrounds, surfaces, and containers. Its clean and minimalist appearance creates a sense of spaciousness and cleanliness, enhancing the overall user experience.</p>
+                        </li>
+                    </ul>
+
+                </p>
+                
                 {
                     colours.map((hue) => {
                     return(
