@@ -22,6 +22,7 @@ export default function Home() {
         <p>We wanted to keep our logo simple while also conveying the idea of collaboration/connection.
           To achieve this, we made minimal changes to our chosen typeface, Rajdhani, by only merging together the <span style={{fontStyle: "italic"}}>I</span> and <span style={{fontStyle: "italic"}}>U</span> in <span style={{fontStyle: "italic"}}>studiUs</span>.
           By "squishing" together <span style={{fontStyle: "italic"}}>I</span> and <span style={{fontStyle: "italic"}}>U</span>, it represents being physically closer between two parties: I and You.</p>
+        <p>The mark is supposed to resemble two books to tie it back to a studying theme. They are intertwined to further enforce our central theme of connection.</p>
       </main>
     </div>
     </>
