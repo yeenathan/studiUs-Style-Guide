@@ -1,6 +1,7 @@
 import styles from "@/styles/Typography.module.css";
 import Header from "@/components/Header";
 import HeadArea from "@/components/HeadArea";
+import Footer from "@/components/Footer";
 
 export default function Typography() {
     return(
@@ -49,6 +50,7 @@ export default function Typography() {
                     </div>
                 </div>
             </div>
+            <Footer/>
         </div>
         </>
     )

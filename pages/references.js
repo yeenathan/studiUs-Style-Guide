@@ -2,6 +2,7 @@ import styles from "@/styles/References.module.css";
 import Header from "@/components/Header";
 import HeadArea from "@/components/HeadArea";
 import Image from "next/image";
+import Footer from "@/components/Footer";
 
 export default function References() {
     return(
@@ -35,6 +36,7 @@ export default function References() {
                     </div>
                 </div>
             </div>
+            <Footer/>
         </div>
         </>
     )

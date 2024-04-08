@@ -6,6 +6,7 @@ import ColourBlock from "@/components/ColourBlock";
 import {colours} from "@/data/colours";
 import Button from "@/components/Button";
 import HeadArea from "@/components/HeadArea";
+import Footer from "@/components/Footer";
 
 export default function Colours() {
     return(
@@ -67,6 +68,7 @@ export default function Colours() {
                     </div>
                 </div>
             </div>
+            <Footer/>
         </div>
         </>
     )

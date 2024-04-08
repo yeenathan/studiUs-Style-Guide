@@ -2,6 +2,7 @@ import styles from "@/styles/Graphics.module.css";
 import Header from "@/components/Header";
 import HeadArea from "@/components/HeadArea";
 import Image from "next/image";
+import Footer from "@/components/Footer";
 
 export default function Graphics() {
     return(
@@ -50,6 +51,7 @@ export default function Graphics() {
                   </div>
                 </div>
             </div>
+            <Footer/>
         </div>
         </>
     )

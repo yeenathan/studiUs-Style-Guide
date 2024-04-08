@@ -1,0 +1,11 @@
+.footer {
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1rem;
+}
+
+.footer p {
+    font-size: var(--caption-1);
+}
