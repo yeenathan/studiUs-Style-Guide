@@ -40,7 +40,7 @@ export default function Colours() {
                     colours.map((hue) => {
                     return(
                         <>
-                        <h4>{hue.category}</h4>
+                        <h3>{hue.category}</h3>
                         <div className={styles.colourCategory}>
                         {
                             hue.data.map((style) => {
